@@ -38,11 +38,6 @@
       "nsis": {
         "installMode": "perMachine"
       }
-    },
-    "macOS": {
-      "minimumSystemVersion": "10.13",
-      "frameworks": [],
-      "exceptionDomain": ""
     }
   }
 }

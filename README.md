@@ -68,8 +68,7 @@ A modern, powerful Windows desktop application for managing and copying text fie
 
 - [Node.js](https://nodejs.org/) (v16 or higher)
 - [Rust](https://www.rust-lang.org/) (for Tauri)
-- **For Windows builds**: Windows 10/11
-- **For macOS builds**: macOS 10.13 or later with Xcode Command Line Tools
+- Windows 10/11
 
 ### Development Setup
 
@@ -94,30 +93,8 @@ npm run tauri:dev
 npm run tauri:build
 ```
 
-The installers will be created at:
-- **Windows**: `src-tauri/target/release/bundle/nsis/Text Copier_1.0.0_x64-setup.exe`
-- **macOS**: `src-tauri/target/release/bundle/dmg/Text Copier_1.0.0_x64.dmg` (requires macOS to build)
-
-### Building for macOS
-
-To build the macOS version:
-
-1. **Clone the repository on a Mac**
-2. **Install Xcode Command Line Tools**:
-   ```bash
-   xcode-select --install
-   ```
-3. **Install dependencies and build**:
-   ```bash
-   npm install
-   npm run tauri:build
-   ```
-
-The build will create:
-- `.dmg` installer (recommended for distribution)
-- `.app` bundle in `src-tauri/target/release/bundle/macos/`
-
-**Note**: For public distribution on macOS, you'll need to sign the app with an Apple Developer account.
+The installer will be created at:
+- `src-tauri/target/release/bundle/nsis/Text Copier_1.0.0_x64-setup.exe`
 
 ## 📁 Project Structure
 

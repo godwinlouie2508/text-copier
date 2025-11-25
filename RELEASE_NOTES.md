@@ -14,21 +14,13 @@
 
 ## 📥 Installation
 
-### Windows
 1. Download `Text Copier_1.0.0_x64-setup.exe`
 2. Run the installer (requires Administrator privileges)
 3. The app will be installed to `C:\Program Files\Text Copier\`
 4. Launch from Start Menu or Desktop shortcut
 
-### macOS
-1. Download `Text Copier_1.0.0_universal.dmg`
-2. Open the `.dmg` file
-3. Drag Text Copier to Applications
-4. **First launch:** Right-click the app → "Open" → "Open" (required for unsigned apps)
-
 **System Requirements:**
-- **Windows:** Windows 10/11 (64-bit)
-- **macOS:** macOS 10.13 or later (Intel & Apple Silicon)
+- Windows 10/11 (64-bit)
 - ~50MB disk space
 
 ## 🔧 What's New in v1.0.0

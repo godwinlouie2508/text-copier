@@ -48,7 +48,16 @@
       "Bash(cmd /c \"if exist src-tauri\\target\\release\\app.exe (echo BUILD_COMPLETE) else (echo BUILD_IN_PROGRESS)\")",
       "Bash(timeout /t 5 /nobreak)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(cmd /c \"if exist src-tauri\\target\\release\\bundle\\nsis\\*.exe (dir src-tauri\\target\\release\\bundle\\nsis\\*.exe) else (echo No installer found)\")",
+      "Bash(cmd /c \"dir \"\"src-tauri\\target\\release\\bundle\\nsis\"\" 2>nul\")",
+      "Bash(cmd /c:*)",
+      "Bash(gh release create:*)",
+      "Bash(git tag:*)"
     ],
     "deny": [],
     "ask": []
