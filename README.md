@@ -4,7 +4,7 @@
 
 A modern, powerful Windows desktop application for managing and copying text fields with ease.
 
-**[Download Latest Release](https://github.com/YOUR_USERNAME/text-copier/releases/latest)** • **[Report Bug](https://github.com/YOUR_USERNAME/text-copier/issues)**
+**[Download Latest Release](https://github.com/godwinlouie2508/text-copier/releases/latest)** • **[Report Bug](https://github.com/godwinlouie2508/text-copier/issues)**
 
 </div>
 
@@ -24,7 +24,7 @@ A modern, powerful Windows desktop application for managing and copying text fie
 
 ### For Users
 
-1. Download `Text-Copier-Setup.exe` from the [latest release](https://github.com/YOUR_USERNAME/text-copier/releases/latest)
+1. Download `Text-Copier-Setup.exe` from the [latest release](https://github.com/godwinlouie2508/text-copier/releases/latest)
 2. Run the installer (requires Administrator privileges)
 3. The app will be installed to `C:\Program Files\Text Copier\`
 4. Launch from Start Menu or Desktop shortcut
@@ -74,7 +74,7 @@ A modern, powerful Windows desktop application for managing and copying text fie
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/text-copier.git
+git clone https://github.com/godwinlouie2508/text-copier.git
 cd text-copier
 ```
 
